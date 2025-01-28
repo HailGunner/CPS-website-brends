@@ -1,0 +1,37 @@
+@media (max-width: 1070px) {
+    .content {
+        grid-template-columns: repeat(3, 222px);
+        gap: 16px 24px;
+    }
+
+    .content__tablet--hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 728px) {
+    html {
+        overflow: visible;
+    }
+
+    .cap {
+        height: 100%;
+        max-height: 80px;
+    }
+    .content {
+        display: none;
+    }
+
+    .content__arrow-hide {
+        display: none;
+    }
+
+    .swiper {
+        display: flex;
+    }
+
+    .swiper-pagination-bullet {
+        display: inline-block;
+    }
+
+}
